@@ -58,4 +58,10 @@
       <Assignment {i} name={hw.name} className={hw.class} day={hw.day} />
     {/each}
   </div>
+
+  <button
+    class="rounded-lg border-black border-2 p-2 shadow-xl hover:shadow-none m-4 bg-slate-600"
+  >
+    <a href="/" class="w-full inline-block">Return Home</a>
+  </button>
 </div>
