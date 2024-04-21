@@ -5,7 +5,7 @@
 </script>
 
 <div class="w-screen h-screen bg-gray-500 flex flex-col">
-  <span class="text-2xl text-center">Homework</span>
+  <span class="text-2xl text-center m-4">Homework</span>
   <input
     class="rounded-lg border-black border-2 p-2 w-1/4 m-2"
     bind:value={$homework[params.id].name}
