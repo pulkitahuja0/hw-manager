@@ -1,13 +1,6 @@
 <script>
   import { homework } from "../stores";
 
-  const limitInput = () => {
-    const curr = document.getElementById(`input`).value;
-    if (curr <= 0 || curr >= 7) {
-      document.getElementById(`input`).value = 1;
-    }
-  };
-
   export let params;
 </script>
 
