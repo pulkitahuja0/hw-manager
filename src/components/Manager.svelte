@@ -4,7 +4,7 @@
   import { homework } from "../stores";
 </script>
 
-<div class="w-4/12 rounded-lg bg-gray-200 h-screen flex flex-col">
+<div class="w-1/4 rounded-lg bg-gray-200 h-screen flex flex-col">
   <span class="w-full text-center h-min my-6 text-2xl">Manage Homework</span>
   <button
     class="rounded-lg border-black border-2 p-2 m-4 bg-red-500"

@@ -1,15 +1,17 @@
 <script>
   import { link } from "svelte-spa-router";
   import { homework } from "../stores";
+  import { dayToString } from "../helpers/dayHelpers";
 </script>
 
 <div
-  class="w-4/12 rounded-lg bg-gray-300 h-screen flex flex-col mx-2 overflow-y-auto"
+  class="w-5/12 rounded-lg bg-gray-300 h-screen flex flex-col mx-2 overflow-y-auto"
 >
   <span class="w-full text-center h-min my-6 text-2xl">Look at the Week</span>
   <div class="grid grid-cols-7">
     {#each { length: 7 } as _, day}
       <div class="">
+        <span class="truncate">{dayToString(day)}</span>
         {#each $homework as hw, j}
           {#if hw.day == day}
             <div
